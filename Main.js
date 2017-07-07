@@ -2,7 +2,7 @@ var problems = [];
 var currentProblem = null;
 var problemCount = 0;
 var problemNumber = 1;
-var complexities = ["(1)","(log (n))", "(n)", "(n log(n))", "(n^2)"];
+var complexities = ["(1)","(log(n))", "(n)", "(n log(n))", "(n^2)"];
 
 $(document).ready(function () {
     var currentAnswer = null;

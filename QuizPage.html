@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="QuizStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="Main.js"></script>
+    </head>
+
+    <body class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-md-offset-10">
+                <button type="button" class="btn" id="quit-button">Quit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                    <p id="question-counter">1/10</p>
+                </div>
+                <div class="row">
+                    <div id="prompt-frame">
+                        <div id="prompt-text">
+                            <p id="subject">Data Structures</p>
+                            <p id="topic">Hash Table</p>
+                            <p id="question">Insertion Time Complexity:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" class="answer-button col-md-2 col-md-offset-2 col-sm-10 col-sm-offset-1" id="answer1">answer 1</button>
+            <button type="button" class="answer-button col-md-2 col-md-offset-4 col-sm-10 col-sm-offset-1" id="answer2">answer 2</button>
+            <button type="button" class="answer-button col-md-2 col-md-offset-2 col-sm-10 col-sm-offset-1" id="answer3">answer 3</button>
+            <button type="button" class="answer-button col-md-2 col-md-offset-4 col-sm-10 col-sm-offset-1" id="answer4">answer 4</button>
+        </div>
+    </body>
+
+</html>

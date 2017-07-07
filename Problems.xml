@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem-set>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Array</topic>
+        <question>Access average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Array</topic>
+        <question>Search average case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Array</topic>
+        <question>Insertion average case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Array</topic>
+        <question>Deletion average case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Linked List</topic>
+        <question>Access average case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Linked List</topic>
+        <question>Search average case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Linked List</topic>
+        <question>Insertion average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Linked List</topic>
+        <question>Deletion average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Hash Table</topic>
+        <question>Search average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Hash Table</topic>
+        <question>Insertion average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Hash Table</topic>
+        <question>Deletion average case time complexity:</question>
+        <answer>(1)</answer>
+    </problem>  
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Access average case time complexity:</question>
+        <answer>(log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Search average case time complexity:</question>
+        <answer>(log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Insertion average case time complexity:</question>
+        <answer>(log(n))</answer>
+    </problem> 
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Deletion average case time complexity:</question>
+        <answer>(log(n))</answer>
+    </problem>  
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Access worst case time complexity:</question>
+        <answer>(n)</answer>
+    </problem> 
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Search worst case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Insertion worst case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Data Structures</subject>
+        <topic>Binary Search Tree</topic>
+        <question>Deletion worst case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Quicksort</topic>
+        <question>Best case time complexity:</question>
+        <answer>(n log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Quicksort</topic>
+        <question>Worst case time complexity:</question>
+        <answer>(n^2)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Quicksort</topic>
+        <question>Worst case space complexity:</question>
+        <answer>(log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Mergesort</topic>
+        <question>Best case time complexity:</question>
+        <answer>(n log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Mergesort</topic>
+        <question>Worst case time complexity:</question>
+        <answer>(n log(n))</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Mergesort</topic>
+        <question>Worst case space complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Bubble sort</topic>
+        <question>Best case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Bubble sort</topic>
+        <question>Worst case time complexity:</question>
+        <answer>(n^2)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Bubble sort</topic>
+        <question>Worst case space complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Insertion sort</topic>
+        <question>Best case time complexity:</question>
+        <answer>(n)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Insertion sort</topic>
+        <question>Worst case time complexity:</question>
+        <answer>(n^2)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Insertion sort</topic>
+        <question>Worst case space complexity:</question>
+        <answer>(1)</answer>
+    </problem>
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Selection sort</topic>
+        <question>Best case time complexity:</question>
+        <answer>(n^2)</answer>
+    </problem>  
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Selection sort</topic>
+        <question>Worst case time complexity:</question>
+        <answer>(n^2)</answer>
+    </problem> 
+    <problem>
+        <subject>Sorting Algorithms</subject>
+        <topic>Selection sort</topic>
+        <question>Worst case space complexity:</question>
+        <answer>(1)</answer>
+    </problem>          
+</problem-set>

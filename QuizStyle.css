@@ -79,7 +79,7 @@ body {
 
     border: 1px solid rgb(40,40,40);
     border-radius: 0px;
-    min-height: 100px;
+    min-height: 60px;
 }
 
 .answer-button:hover {

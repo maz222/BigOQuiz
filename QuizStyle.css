@@ -49,7 +49,7 @@ body {
     font-size: 1.75em;
 }
 
-#quit-button {
+#cheat-button {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 100%;
@@ -61,10 +61,10 @@ body {
     border-radius: 0px;
 }
 
-#quit-button:hover {
-    background-color: red;
+#cheat-button:hover {
+    background-color: rgb(40,40,40);
     color: white;
-    border: 1px solid red;
+    border: 1px solid rgb(40,40,40);
     border-radius: 0px;
 }
 

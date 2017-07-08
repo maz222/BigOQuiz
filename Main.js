@@ -27,6 +27,10 @@ $(document).ready(function () {
         console.log(problems);
         }
     }).done(function() {
+        $("#cheat-button").on("click", function() {
+            window.open("ReferenceTable.html")
+        })
+
         currentProblem = problems.pop();
         setProblem(currentProblem);
         for(i = 1; i <= 4; i++) {

@@ -89,7 +89,7 @@ body {
 }
 
 @media only screen and (max-device-width: 736px) {
-    .button {
+    button {
         min-height: 150px;
     }
 }

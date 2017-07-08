@@ -24,20 +24,19 @@ $(document).ready(function () {
             console.log("Added problem");
             problemCount += 1;
         });
-        console.log(problems);
         }
     }).done(function() {
         $("#cheat-button").on("click", function() {
             window.open("ReferenceTable.html")
         })
 
-        currentProblem = problems.pop();
+        currentProblem = getRandomProblem();
         setProblem(currentProblem);
         for(i = 1; i <= 4; i++) {
             var buttonString = "#answer" + String(i);
             $(buttonString).on("click",function() {
                 if($(this).text() == currentProblem["answer"]) {
-                    currentProblem = problems.pop();
+                    currentProblem = getRandomProblem();
                     problemNumber += 1;
                     setProblem(currentProblem);
                 }
@@ -53,6 +52,12 @@ $(document).ready(function () {
 
 
 })
+
+function getRandomProblem() {
+    var index = Math.floor(Math.random()*(problems.length-1+0)+0);
+    var problem = problems.splice(index,1);
+    return problem[0];
+}
 
 function setProblem(problem) {
     setTopic(problem["topic"]);

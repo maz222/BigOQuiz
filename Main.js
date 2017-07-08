@@ -5,6 +5,11 @@ var problemNumber = 1;
 var complexities = ["(1)","(log(n))", "(n)", "(n log(n))", "(n^2)"];
 
 $(document).ready(function () {
+    var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
+    if (!touchsupport){ // browser doesn't support touch
+        $(".answer-button").addClass("answer-button-hover");
+        $("#cheat-button").addClass("cheat-button-hover");
+    }
     var currentAnswer = null;
 
     $.ajax({

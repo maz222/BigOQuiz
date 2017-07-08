@@ -61,7 +61,7 @@ body {
     border-radius: 0px;
 }
 
-#cheat-button:hover {
+#cheat-button-hover:hover {
     background-color: rgb(40,40,40);
     color: white;
     border: 1px solid rgb(40,40,40);
@@ -81,7 +81,7 @@ body {
     border-radius: 0px;
 }
 
-.answer-button:hover {
+.answer-button-hover:hover {
     border-color: rgb(40,40,40) !important;
     background-color: rgb(40,40,40) !important;
     color: white !important;

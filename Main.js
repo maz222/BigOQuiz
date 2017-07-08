@@ -41,6 +41,9 @@ $(document).ready(function () {
             var buttonString = "#answer" + String(i);
             $(buttonString).on("click",function() {
                 if($(this).text() == currentProblem["answer"]) {
+                    $(this).css("color","white");
+                    $(this).css("background-color","green");
+                    $(this).css("border-color", "green");
                     currentProblem = getRandomProblem();
                     problemNumber += 1;
                     setProblem(currentProblem);

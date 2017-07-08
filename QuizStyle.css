@@ -99,4 +99,13 @@ body {
     #prompt-frame {
         height: 25%;
     }
+    #subject {
+        display: none;
+    }
+    #topic {
+        font-size: 3em;
+    }
+    #question {
+        font-size: 2.25em;
+    }
 }

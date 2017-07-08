@@ -90,6 +90,7 @@ body {
 @media only screen and (max-device-width: 736px) {
     #cheat-button {
         min-height: 100px;
+        font-size: 1.75em;
     }
     .answer-button {
         min-height: 150px !important;

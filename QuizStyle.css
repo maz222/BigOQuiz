@@ -89,7 +89,7 @@ body {
 
 @media only screen and (max-device-width: 736px) {
     button {
-        min-height: 150px;
+        min-height: 150px !important;
     }
     #prompt-frame {
         height: 25%;

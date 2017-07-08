@@ -87,3 +87,9 @@ body {
     background-color: rgb(40,40,40) !important;
     color: white !important;
 }
+
+@media only screen and (max-device-width: 736px) {
+    .button {
+        min-height: 150px;
+    }
+}

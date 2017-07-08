@@ -1,0 +1,41 @@
+body { 
+    background-color: #E0E8EB;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-color: black !important;
+}
+
+th {
+    background-color: white;
+}
+
+.blue-col {
+    background-color: #52BADA;
+    color: white;
+    font-weight: bold;
+}
+
+.green-col {
+    background-color: rgba(82,218,114,.5);
+}
+
+.yellow-col {
+    background-color: rgba(114,82,218,.5);
+}
+
+.red-col {
+    background-color: rgba(218,82,118,.5);
+}
+
+tr {
+    background-color: rgba(218,182,82,.5);
+}
+
+

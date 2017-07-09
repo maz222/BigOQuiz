@@ -49,6 +49,10 @@ body {
     font-size: 1.75em;
 }
 
+button:focus, button:active {
+    outline: 0;
+}
+
 #cheat-button {
     margin-top: 20px;
     margin-bottom: 10px;

@@ -60,7 +60,7 @@ $(document).ready(function () {
                     $(this).css("color","white");
                     $(this).css("background-color","red");
                     $(this).css("border-color", "red");
-                    $(this).removeClass("answer-button-hover");
+                    //$(this).removeClass("answer-button-hover");
                     console.log("wrong!");
                 }
             })

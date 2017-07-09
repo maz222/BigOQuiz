@@ -44,9 +44,14 @@ $(document).ready(function () {
                     $(this).css("color","white");
                     $(this).css("background-color","green");
                     $(this).css("border-color", "green");
+
+                    function advanceProblems() {
                     currentProblem = getRandomProblem();
                     problemNumber += 1;
-                    setProblem(currentProblem);
+                    setProblem(currentProblem); }
+
+                    window.setTimeout(advanceProblems,500);
+
                 }
                 else {
                     $(this).css("color","white");

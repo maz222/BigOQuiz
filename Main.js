@@ -4,10 +4,11 @@ var problemCount = 0;
 var problemNumber = 1;
 var complexities = ["(1)","(log(n))", "(n)", "(n log(n))", "(n^2)"];
 
+var touchsupport;
+
 $(document).ready(function () {
-    var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
+    touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
     if (!touchsupport){ // browser doesn't support touch
-        $(".answer-button").addClass("answer-button-hover");
         $("#cheat-button").addClass("cheat-button-hover");
     }
     var currentAnswer = null;
@@ -44,6 +45,8 @@ $(document).ready(function () {
                     $(this).css("color","white");
                     $(this).css("background-color","green");
                     $(this).css("border-color", "green");
+
+                    $(this).removeClass("answer-button-hover");
 
                     function advanceProblems() {
                     currentProblem = getRandomProblem();
@@ -117,6 +120,9 @@ function setAnswerButtons(correctAnswer, randomAnswers) {
         $(buttonString).css("color","rgb(40,40,40)");
         $(buttonString).css("border-color","rgb(40,40,40)")
         $(buttonString).css("background-color","#E0E8EB")
+        if(!touchsupport) {
+            $(buttonString).addClass("answer-button-hover");
+        }
     }
 }
 

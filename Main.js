@@ -53,7 +53,7 @@ $(document).ready(function () {
                     problemNumber += 1;
                     setProblem(currentProblem); }
 
-                    window.setTimeout(advanceProblems,1000);
+                    window.setTimeout(advanceProblems,300);
 
                 }
                 else {
@@ -61,6 +61,7 @@ $(document).ready(function () {
                     $(this).css("background-color","red");
                     $(this).css("border-color", "red");
                     $(this).removeClass("answer-button-hover");
+                    console.log("wrong!");
                 }
             })
         }

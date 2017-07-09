@@ -53,13 +53,14 @@ $(document).ready(function () {
                     problemNumber += 1;
                     setProblem(currentProblem); }
 
-                    window.setTimeout(advanceProblems,500);
+                    window.setTimeout(advanceProblems,1000);
 
                 }
                 else {
                     $(this).css("color","white");
                     $(this).css("background-color","red");
                     $(this).css("border-color", "red");
+                    $(this).removeClass("answer-button-hover");
                 }
             })
         }
